@@ -1,0 +1,148 @@
+# KhanijAI Studio
+
+Copyright © 2026 Dr. Afaque Karim and Zohaib Quadri
+
+KhanijAI Studio is licensed under the Apache License, Version 2.0.
+A copy of the Apache License, Version 2.0 is included in the LICENSE file.
+
+## Third-Party Software and Dependencies
+
+KhanijAI Studio may use, depend upon, or interoperate with third-party
+software packages, libraries, frameworks, and other components, including
+but not limited to scikit-learn and other Python ecosystem packages.
+
+Such third-party software is NOT relicensed under the Apache License,
+Version 2.0 by Dr. Afaque Karim and Zohaib Quadri or by KhanijAI Studio. 
+Each third-party component remains subject to its own applicable copyright, 
+license terms,and attribution requirements.
+
+Users are responsible for reviewing and complying with the applicable
+license terms of third-party software that they obtain, install, use,
+modify, or redistribute.
+
+The inclusion or use of a third-party package in, or as a dependency of,
+KhanijAI Studio does not constitute a transfer of copyright ownership or
+a relicensing of that third-party software.
+
+Where required by the applicable license, copyright notices, attribution
+notices, license texts, and other required notices for third-party
+components should be retained and/or provided with the distribution.
+
+---
+
+## Third-party dependencies
+
+### Machine-learning and data-processing engines
+
+scikit-learn
+License: BSD 3-Clause
+Copyright: scikit-learn contributors
+
+XGBoost
+License: Apache License 2.0
+Copyright: XGBoost contributors
+
+LightGBM
+License: MIT
+Copyright: Microsoft Corporation and LightGBM contributors
+
+MiniSom
+License: MIT
+Copyright: Giuseppe Vettigli
+
+NumPy
+License: BSD 3-Clause (the wheel also bundles components under 0BSD, MIT, Zlib and CC0-1.0)
+Copyright: NumPy Developers
+
+pandas
+License: BSD 3-Clause
+Copyright: pandas development team (AQR Capital Management, Lambda Foundry, PyData Development Team and contributors)
+
+SciPy
+License: BSD 3-Clause
+Copyright: SciPy Developers
+
+python-dateutil
+License: Apache 2.0 / BSD 3-Clause (dual-licensed)
+Copyright: Gustavo Niemeyer and dateutil contributors
+
+tzdata
+License: Apache 2.0
+Copyright: Python Software Foundation
+
+### Application framework and desktop window
+
+Flask
+License: BSD 3-Clause
+Copyright: Pallets
+
+Werkzeug
+License: BSD 3-Clause
+Copyright: Pallets
+
+Click
+License: BSD 3-Clause
+Copyright: Pallets
+
+ItsDangerous
+License: BSD 3-Clause
+Copyright: Pallets
+
+MarkupSafe
+License: BSD 3-Clause
+Copyright: Pallets
+
+pywebview
+License: BSD 3-Clause
+Copyright: Roman Sirokov and pywebview contributors
+
+pythonnet
+License: MIT
+Copyright: pythonnet contributors
+
+clr-loader
+License: MIT
+Copyright: clr-loader contributors
+
+Pillow
+License: MIT-CMU (HPND)
+Copyright: Jeffrey A. Clark and Pillow contributors
+
+typing_extensions
+License: Python Software Foundation License 2.0
+Copyright: Python Software Foundation and contributors
+
+setuptools
+License: MIT
+Copyright: setuptools contributors
+
+### Front-end libraries (bundled in `static/`)
+
+Chart.js 4.4.1
+License: MIT
+Copyright: 2014-2023 Chart.js Contributors
+
+Lucide 1.47.0
+License: ISC
+Copyright: Lucide Contributors
+
+Tailwind CSS
+License: MIT
+Copyright: Tailwind Labs, Inc.
+
+### Runtime and packaging
+
+Python 3.12 runtime
+License: Python Software Foundation License
+Copyright: Python Software Foundation
+
+PyInstaller (used to build GeoAI_Studio.exe)
+License: GPL-2.0-or-later with a special exception that permits bundling
+the bootloader in non-GPL applications
+Copyright: PyInstaller Development Team
+
+---
+
+Full licence texts for the packages above are supplied with each package
+(for example in the `*.dist-info/licenses` folders inside `_internal/`) and
+must be kept with any redistribution of the bundled application.
